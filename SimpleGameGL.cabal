@@ -1,5 +1,5 @@
 cabal-version: >=1.10
-name: FRPSimpleGame
+name: SimpleGameGL
 version: 0.1.0.0
 license-file: LICENSE
 maintainer: s.walinder@gmail.com
@@ -8,7 +8,7 @@ build-type: Simple
 extra-source-files:
     CHANGELOG.md
 
-executable FRPSimpleGame
+executable SimpleGameGL
     main-is: Main.hs
     other-modules:
         Input,
