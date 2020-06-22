@@ -63,7 +63,7 @@ run a@(renderer, window) resources sense (state, keys) = do
     False -> run a resources sense (newState, newKeys)
 
 main = do
-  renderInfo@(renderer, window) <- initSDL "SimpleGame1" S.Windowed
+  renderInfo@(renderer, window) <- initSDL "GLSimpleGame" S.Windowed
   sense <- getSense
   resources <- getResources renderer
 
